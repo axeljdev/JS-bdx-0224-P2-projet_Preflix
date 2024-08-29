@@ -1,5 +1,6 @@
 import "../Styles/Credits.css";
 import ArrowBack from "../components/ArrowBack";
+import logoTmdb from "../assets/images/logo-tmdb.svg";
 
 function Credits() {
   return (
@@ -7,7 +8,7 @@ function Credits() {
       <ArrowBack />
       <section className="creditsSection">
         <figure className="logo-tmdb">
-          <img src="../src/assets/images/logo-tmdb.svg" alt="TMDB logo" />
+          <img src={logoTmdb} alt="TMDB logo" />
         </figure>
         <p>PREFLIX a été fait avec amour par :</p>
         <p className="nameYellow">Alice, Adrien, Sylvain et Axel</p>
