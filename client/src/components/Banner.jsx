@@ -1,19 +1,24 @@
 import { useState } from "react";
 import "../Styles/Banner.css";
+import arrowLeft from "../assets/images/arrowleft.png";
+import arrowRight from "../assets/images/arrowright.png";
+import dune2 from "../assets/images/dune2.jpg";
+import kungfupanda2 from "../assets/images/kungfupanda2.jpg";
+import ltm from "../assets/images/ltm.jpg";
 
 const moviesList = [
   {
-    imgSrc: "./src/assets/images/dune2.jpg",
+    imgSrc: {dune2},
     name: "Dune 2",
     id: 1,
   },
   {
-    imgSrc: "./src/assets/images/kungfupanda2.jpg",
+    imgSrc: {kungfupanda2},
     name: "Kung Fu Panda 4",
     id: 2,
   },
   {
-    imgSrc: "./src/assets/images/ltm.jpg",
+    imgSrc: {ltm},
     name: "Les 3 Mousquetaires",
     id: 3,
   },
@@ -47,14 +52,14 @@ function Banner() {
       <button className="buttonRight" type="button" onClick={showNextImg}>
         <img
           className="arrow"
-          src="./src/assets/images/arrowright.png"
+          src={arrowRight}
           alt="arrow right"
         />
       </button>
       <button className="buttonLeft" type="button" onClick={showPrevImg}>
         <img
           className="arrow"
-          src="./src/assets/images/arrowleft.png"
+          src={arrowLeft}
           alt="arrow left"
         />
       </button>
