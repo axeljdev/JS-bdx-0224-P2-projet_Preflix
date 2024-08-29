@@ -5,6 +5,8 @@ import { TypeProvider } from "../contexts/CategoryContext";
 import Banner from "../components/Banner";
 import "../Styles/Home.css";
 import "../Styles/Banner.css";
+import arrowLeft from "../assets/images/arrowleft.png";
+import arrowRight from "../assets/images/arrowright.png";
 
 function Home() {
   const apiToken = import.meta.env.VITE_API_TOKEN;
@@ -176,7 +178,7 @@ function Home() {
           >
             <img
               className="arrow desktopOnly"
-              src="./src/assets/images/arrowright.png"
+              src={arrowRight}
               alt="arrow right"
             />
           </button>
@@ -187,7 +189,7 @@ function Home() {
           >
             <img
               className="arrow desktopOnly"
-              src="./src/assets/images/arrowleft.png"
+              src={arrowLeft}
               alt="arrow left"
             />
           </button>
@@ -224,7 +226,7 @@ function Home() {
           >
             <img
               className="arrow desktopOnly"
-              src="./src/assets/images/arrowright.png"
+              src={arrowRight}
               alt="arrow right"
             />
           </button>
@@ -235,7 +237,7 @@ function Home() {
           >
             <img
               className="arrow desktopOnly"
-              src="./src/assets/images/arrowleft.png"
+              src={arrowLeft}
               alt="arrow left"
             />
           </button>
@@ -270,7 +272,7 @@ function Home() {
           >
             <img
               className="arrow desktopOnly"
-              src="./src/assets/images/arrowright.png"
+              src={arrowRight}
               alt="arrow right"
             />
           </button>
@@ -281,7 +283,7 @@ function Home() {
           >
             <img
               className="arrow desktopOnly"
-              src="./src/assets/images/arrowleft.png"
+              src={arrowLeft}
               alt="arrow left"
             />
           </button>
@@ -318,7 +320,7 @@ function Home() {
           >
             <img
               className="arrow desktopOnly"
-              src="./src/assets/images/arrowright.png"
+              src={arrowRight}
               alt="arrow right"
             />
           </button>
@@ -329,7 +331,7 @@ function Home() {
           >
             <img
               className="arrow desktopOnly"
-              src="./src/assets/images/arrowleft.png"
+              src={arrowLeft}
               alt="arrow left"
             />
           </button>

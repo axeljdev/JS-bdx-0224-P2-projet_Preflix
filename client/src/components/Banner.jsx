@@ -8,17 +8,17 @@ import ltm from "../assets/images/ltm.jpg";
 
 const moviesList = [
   {
-    imgSrc: {dune2},
+    imgSrc: dune2,
     name: "Dune 2",
     id: 1,
   },
   {
-    imgSrc: {kungfupanda2},
+    imgSrc: kungfupanda2,
     name: "Kung Fu Panda 4",
     id: 2,
   },
   {
-    imgSrc: {ltm},
+    imgSrc: ltm,
     name: "Les 3 Mousquetaires",
     id: 3,
   },
