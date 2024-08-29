@@ -5,6 +5,7 @@ import arrowRight from "../assets/images/arrowright.png";
 import dune2 from "../assets/images/dune2.jpg";
 import kungfupanda2 from "../assets/images/kungfupanda2.jpg";
 import ltm from "../assets/images/ltm.jpg";
+import logo from "../assets/images/logo.svg";
 
 const moviesList = [
   {
@@ -37,7 +38,7 @@ function Banner() {
 
   return (
     <section className="containerMovies">
-      <img src="./src/assets/images/logo.svg" alt="logo" className="imgLogo" />
+      <img src={logo} alt="logo" className="imgLogo" />
       <figure className="imgMovie">
         {moviesList.map((movie) => (
           <img
