@@ -10,7 +10,7 @@ function BarSearch({ fetchData, handleChange, handleSubmit, searchValue }) {
         <label htmlFor="search">Rechercher un film ou une série</label>
         <img
           src={searchIcon}
-          alt="icone de loupe"
+          alt=""
           className="icon-loop"
         />
         <input
