@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import "../Styles/BarSearch.css";
+import searchIcon from "../assets/images/icons-chercherblack.svg";
 
 function BarSearch({ fetchData, handleChange, handleSubmit, searchValue }) {
   return (
@@ -8,7 +9,7 @@ function BarSearch({ fetchData, handleChange, handleSubmit, searchValue }) {
       <form className="form-search" onSubmit={handleSubmit}>
         <label htmlFor="search">Rechercher un film ou une série</label>
         <img
-          src="../src/assets/images/icons-chercherblack.svg"
+          src={searchIcon}
           alt="icone de loupe"
           className="icon-loop"
         />
