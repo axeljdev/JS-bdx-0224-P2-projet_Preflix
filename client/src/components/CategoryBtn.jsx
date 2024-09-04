@@ -3,6 +3,7 @@ import "../Styles/CategoryBtn.css";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { CategoryContext } from "../contexts/CategoryContext";
+import cross from "../assets/images/cross.svg"
 
 function CategoryBtn({ label, isVisible, setIsVisible }) {
   const { types } = useContext(CategoryContext);
@@ -24,7 +25,7 @@ function CategoryBtn({ label, isVisible, setIsVisible }) {
             onClick={handleClick}
           >
             <img
-              src="../src/assets/images/cross.svg"
+              src={cross}
               alt="closing button to return back to homepage"
               className="closing-cross"
             />
